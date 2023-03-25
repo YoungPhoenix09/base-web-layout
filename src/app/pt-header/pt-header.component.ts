@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./pt-header.component.scss']
 })
 export class PtHeaderComponent {
-
+  title: String = "App Title"
 }
