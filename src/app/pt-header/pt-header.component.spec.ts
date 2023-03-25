@@ -1,23 +1,23 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing'
 
-import { PtHeaderComponent } from './pt-header.component';
+import { PtHeaderComponent } from './pt-header.component'
 
 describe('PtHeaderComponent', () => {
-  let component: PtHeaderComponent;
-  let fixture: ComponentFixture<PtHeaderComponent>;
+  let component: PtHeaderComponent
+  let fixture: ComponentFixture<PtHeaderComponent>
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ PtHeaderComponent ]
     })
-    .compileComponents();
+    .compileComponents()
 
-    fixture = TestBed.createComponent(PtHeaderComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+    fixture = TestBed.createComponent(PtHeaderComponent)
+    component = fixture.componentInstance
+    fixture.detectChanges()
+  })
 
   it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+    expect(component).toBeTruthy()
+  })
+})
