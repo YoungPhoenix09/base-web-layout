@@ -1,5 +1,22 @@
+#mainContainer {
+    display: grid;
+    grid-template-columns: 20% auto auto;
+    grid-template-rows: 10% auto 10%;
+    grid-template-areas: 
+        'header header header'
+        'side-menu content content'
+        'footer footer footer';
+    height: 100%;
+}
+
+pt-header {
+    grid-area: header;
+}
+
+pt-container {
+    grid-area: content;
+}
+
 pt-footer {
-    position: relative;
-    width: 100%;
-    bottom: 0px;
+    grid-area: footer;
 }
