@@ -17,6 +17,11 @@ pt-container {
     grid-area: content;
 }
 
+pt-sidemenu {
+    grid-area: side-menu;
+    z-index: -1;
+}
+
 pt-footer {
     grid-area: footer;
 }
