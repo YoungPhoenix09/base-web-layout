@@ -7,5 +7,9 @@ import { Component, ViewEncapsulation } from '@angular/core'
   encapsulation: ViewEncapsulation.None
 })
 export class PtSidemenuComponent {
-
+  menuItems: String[] = [
+    "Menu Item 1",
+    "Menu Item 2",
+    "Menu Item 3"
+  ]
 }

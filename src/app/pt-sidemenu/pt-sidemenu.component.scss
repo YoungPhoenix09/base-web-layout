@@ -2,6 +2,7 @@
     height: 100%;
     background-color: lightgray;
     overflow-y: hidden;
+    border-right: 2px solid #8080804f;
 
     ul {
         margin: 0px;
@@ -10,8 +11,15 @@
 
         li {
             padding: 20px;
-            border-bottom: 2px solid #8080804f;
-            border-right: 2px solid #8080804f;
+            border-top: 2px solid #8080804f;
+            font-weight: bold;
+            color: #727171;
+
+            &:hover {
+                cursor: pointer;
+                background: gray;
+                color: black;
+            }
         }
     }
 }
